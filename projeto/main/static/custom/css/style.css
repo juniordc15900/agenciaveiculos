@@ -1,0 +1,291 @@
+/* COOKIE */
+
+.cookie{
+    display: flex;
+    color: #FFFFFF;
+    background-color: #333333;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index:1000;
+}
+
+    .cookie p a{
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+
+        .cookie p a:hover{
+            opacity: 0.6;
+        }
+
+/* HEADER */
+
+.header{
+    background-color: #fff159;
+    width: 100%;
+}
+
+.header-descount{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.header-descount i{
+    font-weight: bold;
+}
+
+.header-profile-nav{
+    font-size: 14px;
+}
+
+.header-profile-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+/* FOOTERS */
+
+footer{
+    background-color: white;
+}
+
+.line-footer{
+    height: 90px;
+    width: 1px;
+    background-color: rgb(209, 208, 208);
+}
+
+.footer-nav a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #333333;
+}
+
+.footer-text{
+    font-size: 10px;
+    color: grey;
+}
+
+body{
+    background-color: rgb(230, 228, 228);
+}
+/* forms */
+.cadastra h1{
+    font-size: 150%;
+}
+.cadastra a{
+    text-decoration: none;
+}
+.cadastra .form{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+    .cadastra .form input{
+        background-color: transparent;
+        border-style: none;
+        border-bottom: 1px solid rgb(151, 149, 151);
+    }
+    .cadastra .form span{
+        font-size: 80%;
+        color: rgb(151, 149, 151);
+    }
+.check-box{
+    font-size: 80%;
+    color:rgb(151, 149, 151);
+}
+
+
+.login h1{
+    font-size: 150%;
+}
+.login a{   
+    text-decoration: none;
+}
+.login .form{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+    .login .form input{
+        background-color: transparent;
+        border-style: none;
+        border-bottom: 1px solid rgb(198, 197, 199);
+    }
+    .login .form span{
+        font-size: 80%;
+        color: rgb(199, 197, 197);
+    }
+.btn-continua{
+    height: 300%;
+    border-style: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-cria{
+    height: 300%;
+    border-style: none;
+    border-radius: 5px;
+    background-color:transparent;
+    color: blue;
+    font-weight: bold;
+}
+.btn-cria:hover{
+    background-color: rgba(22, 157, 235, 0.096);
+}
+
+/* PROFILE */
+
+.profile-bg{
+    background-color: white;
+}
+
+.profile-nav{
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.profile-nav a{
+    text-decoration: none;
+    color: #333333;
+}
+
+/* MODALS */
+/* HOME */ 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+/* swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width:350px;
+    height: 350px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-container.product img{
+      height: 200px;
+  }
+
+  .banner .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width:350px;
+    height: 500px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.info h3,
+.product h3{
+    font-size: 80%;
+}
+.product h1{
+    font-size: 150%;
+    font-family:Arial, Helvetica, sans-serif
+}
+.info p{
+    font-size: 80%;
+    color: blue;
+}
+.info i{
+    color: blue;
+}
+.row.info{
+    background-color: white;
+}
+.product-page .info-product,
+.product-page .img-product{
+    background-color: white;
+}
+
+.product-page .info-product{
+    border-left: 1px solid grey;
+}
+.product-page .info-product .heart i{
+    font-size: 200%;
+}
+.product-page .img-product img{
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.product-page .price h1,
+.product-page .price h4,
+.product-page .price p{
+    margin: 0;
+}
+
+.product-page .buttons-buy{
+    border-bottom: 1px solid grey;
+}
+
+.carrinho .table{
+    background-color: white;
+}
